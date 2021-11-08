@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_gravity="right"
+        android:src="@drawable/fond"
+        android:layout_width="170dp"
+        android:layout_height="180dp"
+        />
+
+    <ImageView
+        android:layout_gravity="center"
+        android:src="@drawable/quiz"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+         />
+    <EditText
+        android:ems="8"
+        android:id="@+id/nom"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/name">
+    </EditText>
+    <Button
+        android:id="@+id/started"
+        android:onClick="start"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:text="@string/start"
+        android:layout_width="wrap_content"
+        android:backgroundTint="@color/couleur"
+        android:layout_height="wrap_content">
+
+    </Button>
+    <TextView
+        android:id="@+id/score"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:visibility="invisible"
+        >
+    </TextView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/bestscore"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+        >
+    </TextView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/takepicture"
+        android:textSize="20dp"
+        android:text="@string/takepicture"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:visibility="invisible"
+
+        >
+    </TextView>
+<ImageButton
+    android:id="@+id/camera"
+    android:layout_marginTop="30dp"
+    android:layout_gravity="center"
+    android:layout_width="60dp"
+    android:layout_height="40dp"
+    android:visibility="invisible"
+android:background="@drawable/camera"    >
+
+</ImageButton>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@drawable/bg"
+tools:context=".FifthActivity">
+<LinearLayout
+    android:layout_margin="30dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/profil"
+        android:layout_width="30dp"
+        android:layout_height="29dp"
+        />
+    <TextView
+        android:id="@+id/name"
+        android:layout_marginLeft="30dp"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="25dp">
+    </TextView>
+</LinearLayout>
+<TextView
+    android:textStyle="bold"
+    android:layout_marginTop="20dp"
+    android:text="@string/label4"
+    android:layout_marginLeft="30dp"
+    android:layout_gravity="center_vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/couleur"
+    android:textSize="25dp">
+</TextView>
+<TextView
+    android:layout_marginRight="30dp"
+    android:justificationMode="inter_word"
+    android:layout_marginTop="40dp"
+    android:text="@string/question_4"
+    android:layout_marginLeft="30dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/black"
+    android:textSize="25dp">
+</TextView>
+<LinearLayout
+    android:layout_marginTop="60dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30dp"
+    android:layout_gravity="left">
+    <RadioGroup
+        android:id="@+id/group4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/radio2"
+        >
+        <RadioButton
+            android:onClick="visible"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/AndroidDeviceMonitor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/AndroidDeviceMonitor"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            />
+
+        <RadioButton
+            android:onClick="visible"
+            android:textSize="20dp"
+            android:id="@+id/AVDManager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/AVDManager"
+            android:textColor="@color/black"
+            android:layout_marginBottom="20dp"
+
+            />
+        <RadioButton
+            android:onClick="visible"
+            android:id="@+id/SDKManager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/SDKManager"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_marginBottom="20dp"
+            />
+        <RadioButton
+            android:onClick="visible"
+            android:textSize="20dp"
+            android:id="@+id/ThemeEditor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ThemeEditor"
+            android:textColor="@color/black"
+            android:layout_marginBottom="20dp"
+            />
+    </RadioGroup>
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="right"
+    >
+    <Button
+        android:id="@+id/Continue4"
+        android:onClick="step4"
+        android:layout_gravity="bottom"
+        android:layout_marginRight="30dp"
+        android:text="@string/Continue"
+        android:layout_width="wrap_content"
+        android:backgroundTint="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+android:visibility="invisible"
+        >
+    </Button>
+</LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

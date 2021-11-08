@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="start">START</string>
+    <string name="name">Saisie votre nom</string>
+    <string name="question_1">Which folder do you copy and paste an image into ?</string>
+    <string name="label1">Question 1</string>
+    <string name="layout">Layout</string>
+    <string name="Resources">Resources</string>
+    <string name="Drawable">Drawable</string>
+    <string name="Values">Values</string>
+    <string name="label2">Question 2</string>
+    <string name="question_2">Which is the correct line of code to get the ID of the EditText you intend to use ?</string>
+    <string name="reponse1">EditText TextHandler = (EditText) findViewById(R.id.nameTextField);</string>
+    <string name="Reponse2">EditText = (EditText) findViewById(R.id.nameTextField);</string>
+    <string name="reponse3">EditText TextHandler = findViewById(R.id.nameTextField);</string>
+    <string name="reponse4">EditText TextHandler = (EditText) findViewById(nameTextField);</string>
+    <string name="label3">Question 3</string>
+    <string name="question_3">Which component property should be changed to a name that is specific of the components use?</string>
+    <string name="TEXT">Text</string>
+    <string name="ID">ID</string>
+    <string name="Editable">Editable</string>
+    <string name="ContentDescription">Content description</string>
+    <string name="label4">Question 4</string>
+    <string name="question_4">What tool do you use to create a new emulator?</string>
+    <string name="AndroidDeviceMonitor">Android Device Monitor</string>
+    <string name="AVDManager">AVD Manager</string>
+    <string name="SDKManager">SDK Manager</string>
+    <string name="ThemeEditor">Theme Editor</string>
+    <string name="label5">Question 5</string>
+    <string name="question_5">What constructor method do you use to create an explicit new Intent ?</string>
+    <string name="newIntent">"new Intent() "</string>
+    <string name="newIntentContext"><![CDATA["new Intent(Context context, Class<?> class) "]]></string>
+    <string name="newIntentaction">"new Intent(String action, Uri uri) "</string>
+    <string name="newIntentwithouturi">"new Intent(String action) "</string>
+    <string name="Continue">Continue</string>
+    <string name="note">Your score :</string>
+    <string name="takepicture">You can take picture</string>
+    <string name="Finish">Finish</string>
+</resources>
